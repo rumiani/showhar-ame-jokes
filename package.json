@@ -1,15 +1,13 @@
 {
   "name": "showhar-ame-jokes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Dad jokes in Persian",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rumiani/test"
+    "url": "https://github.com/rumiani/showhar-ame-jokes"
   },
-  "homepage": {
-    "url": "https://github.com/rumiani/test"
-  },
+  "homepage":  "https://www.npmjs.com/package/showhar-ame-jokes",
   "keywords": [
     "jokes",
     "npm",
