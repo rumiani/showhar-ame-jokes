@@ -1,7 +1,7 @@
 const genereteOneJoke = require('./oneJokegenerator')
 const jokesGenerator = (numberOfJokes = 1) =>{
     let jokesResults = []
-    if (numberOfJokes <1 || numberOfJokes > 10 || isNaN(numberOfJokes) )
+    if (numberOfJokes <1 || numberOfJokes > 10 || typeof numberOfJokes !== 'number' )
         throw new Error('Wrong params, please ask for a number 1 to 10.')
     do {
         const oneJoke = genereteOneJoke()

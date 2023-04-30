@@ -5,9 +5,15 @@ Install
 ```code
 npm i showhar-ame-jokes
 ```
-After installation invoke the joke generator function and pass a a spicific 12 bytes id or a number 1-10:
+
+After installation, invoke the joke generator function and pass a a spicific 12 bytes id or a number 1-10.
+Example:
 ```javascript
+// Import the jokesGenerator function:
+const jokesGenerator = require('showhar-ame-jokes')
+// Invoke the function and pass a number as an argument and store it in a variable:
 const arrayOfJokes = jokesGenerator(2)
+// Log the result into the console 
 console.log(arrayOfJokes)
 ```
 
