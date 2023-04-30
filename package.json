@@ -1,0 +1,24 @@
+{
+  "name": "showhar-ame-jokes",
+  "version": "1.0.1",
+  "description": "Dad jokes in Persian",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rumiani/test"
+  },
+  "homepage": {
+    "url": "https://github.com/rumiani/test"
+  },
+  "keywords": [
+    "jokes",
+    "npm",
+    "generator",
+    "jokeGenerator"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rumiani",
+  "license": "MIT"
+}
